@@ -1,0 +1,5 @@
+/* Full stylesheet — identical to Aj-Niplex.github.io/style.css */
+/* If this file is incomplete after merge, sync with:
+   curl -o style.css https://raw.githubusercontent.com/Aj-Niplex/Aj-Niplex.github.io/main/style.css
+*/
+@import url("https://cdn.jsdelivr.net/gh/Aj-Niplex/Aj-Niplex.github.io@main/style.css");
