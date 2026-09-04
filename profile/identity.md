@@ -22,7 +22,13 @@ Do not silently choose one record when a form or official process asks for a dat
 - Artificial intelligence & machine learning
 - Software development & developer tools
 - Useful applications and independent product building
-- Japan and Japanese language learning (exact education/career route remains changeable — live in goals, not permanent identity)
+
+## How I build (current)
+
+- **Language:** Python only for now
+- **Focus:** Backend and agents
+- **UI:** Social apps (Discord / Telegram) as the interface — not full-stack websites yet
+- Full-stack and other languages later, when building websites/apps
 
 ## Durable interaction preferences
 
