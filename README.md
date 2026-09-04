@@ -25,7 +25,9 @@
 | **School** | Woodland Academy (Class 12 CBSE PCM) |
 | **Long-term** | Independent AI-assisted builder → eventually a company |
 
-**Enduring interests:** AI/ML, software development, developer tools, useful applications, Japan & Japanese language (route still open).
+**Enduring interests:** AI/ML, software development, developer tools, useful applications.
+
+**How I build:** Python-only for now. Backend / agents first; Discord & Telegram as the UI. Full-stack and other languages later when building websites/apps.
 
 **Communication style:** Informal, direct, clear correction. Tough-love allowed when procrastinating. Prefers a second-brain style assistant: honest about uncertainty, practical, initiative-taking.
 
@@ -34,10 +36,9 @@
 ## Current Goals (priority order)
 
 1. Recover academically and target ~80% in CBSE Class 12.
-2. Learn Japanese and keep the Japan pathway open (MEXT 2028 target, language school, Kosen/university options).
-3. Build a substantial GitHub project that demonstrates real engineering / AI usefulness.
-4. Clarify best career direction (AI/ML vs CS vs Software Engineering vs Robotics).
-5. Develop NIPLEX as useful resources and a future company, not feature-chasing.
+2. Build a substantial GitHub project that demonstrates real engineering / AI usefulness.
+3. Clarify best career direction (AI/ML vs CS vs Software Engineering vs Robotics).
+4. Develop NIPLEX as useful resources and a future company, not feature-chasing.
 
 ---
 
@@ -73,7 +74,7 @@ AI Client (Claude / others)
 | **Niplex Skills Helper** | [`niplex-obsidian-helper`](https://github.com/Aj-Niplex/niplex-obsidian-helper) | Companion plugin — skill marketplace lookup/install. |
 | **Niplex Obsidian Skills** | [`Niplex-Obsidian-skills`](https://github.com/Aj-Niplex/Niplex-Obsidian-skills) | Public catalogue of research skills (RSH01–RSH09). |
 | **Sandbox** | [`Sandbox`](https://github.com/Aj-Niplex/Sandbox) | Minimal free code-runner MCP (subprocess), cheapest sandbox tier for Niplex-MCP. |
-| **Portfolio Site** | [`Aj-Niplex.github.io`](https://github.com/Aj-Niplex/Aj-Niplex.github.io) | Public NIPLEX showcase — vision, projects, roadmap. Python backend + Vite frontend. |
+| **Portfolio Site** | [`Aj-Niplex.github.io`](https://github.com/Aj-Niplex/Aj-Niplex.github.io) | Public NIPLEX showcase — vision, projects, roadmap. |
 
 ### Mature / Lower Activity
 
@@ -136,4 +137,4 @@ AI Client (Claude / others)
 
 ---
 
-*Last assembled from Adarsh-Jaiswal vault + Neural memory + live GitHub inventory — September 2026.*
+*Last updated September 2026 — Japan pathway removed from public profile; stack = Python backend + social UI.*
