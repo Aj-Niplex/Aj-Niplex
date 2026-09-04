@@ -1,140 +1,82 @@
-# Adarsh Jaiswal — Combined Profile & Projects Registry
+<div align="center">
 
-**Single source of truth** combining:
-- Profile / identity data from the `Adarsh-Jaiswal` vault
-- Full project & repository inventory across the Aj-Niplex account
-- Current state, goals, and architecture notes
+# Adarsh Jaiswal
 
-> Mission: **Never Stop Imagining.**  
-> GitHub: [Aj-Niplex](https://github.com/Aj-Niplex)  
-> Site: [aj-niplex.github.io](https://aj-niplex.github.io/)
+### NIPLEX · *Never Stop Imagining*
 
----
+Class 12 PCM student building AI agent systems and backend tools.
 
-## Quick Identity
+[![Site](https://img.shields.io/badge/Site-aj--niplex.github.io-0ea5e9?style=for-the-badge&logo=github)](https://aj-niplex.github.io/)
+[![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![MCP](https://img.shields.io/badge/MCP-Protocol-black?style=for-the-badge)](https://modelcontextprotocol.io/)
 
-| Field | Value |
-|-------|--------|
-| **Preferred name** | Adarsh |
-| **Full name** | Adarsh Jaiswal |
-| **GitHub** | [`Aj-Niplex`](https://github.com/Aj-Niplex) |
-| **Founder of** | **NIPLEX** — *Never Stop Imagining* |
-| **Real DOB** | 3 September 2009 |
-| **Official DOB** | 3 September 2010 |
-| **Location** | Gorakhpur, Uttar Pradesh, India |
-| **School** | Woodland Academy (Class 12 CBSE PCM) |
-| **Long-term** | Independent AI-assisted builder → eventually a company |
-
-**Enduring interests:** AI/ML, software development, developer tools, useful applications.
-
-**How I build:** Python-only for now. Backend / agents first; Discord & Telegram as the UI. Full-stack and other languages later when building websites/apps.
-
-**Communication style:** Informal, direct, clear correction. Tough-love allowed when procrastinating. Prefers a second-brain style assistant: honest about uncertainty, practical, initiative-taking.
+</div>
 
 ---
 
-## Current Goals (priority order)
+### About me
 
-1. Recover academically and target ~80% in CBSE Class 12.
-2. Build a substantial GitHub project that demonstrates real engineering / AI usefulness.
-3. Clarify best career direction (AI/ML vs CS vs Software Engineering vs Robotics).
-4. Develop NIPLEX as useful resources and a future company, not feature-chasing.
+- 🔧 **Backend / agents first** — Python only for now
+- 🤖 Building **NIPLEX**: real systems (MCP server, memory layer, Discord/Telegram bots, Obsidian research agents)
+- 📱 Mobile-first development; ship something that actually runs, then improve it
+- 💬 Social apps (Discord / Telegram) as the UI — focus is backend logic and agents
 
 ---
 
-## Architecture Snapshot
+### What I'm building
 
-```
-AI Client (Claude / others)
-        │
-        ▼
-   Niplex-MCP  ──────► sandboxes, GitHub, Google Workspace, HidenCloud, YouTube, web
-        │
-        ▼
-   Neural-MCP  ──────► ask_neural / log_to_neural
-        │
-        ▼
-   Adarshs-Stack (memory wiki) + Adarsh-Jaiswal (Obsidian vault)
+| Project | What it is |
+|---------|------------|
+| **[niplex-mcp](https://github.com/Aj-Niplex/niplex-mcp)** | Custom MCP server — 47+ tools (GitHub, Google Workspace, sandboxes, HidenCloud, web, YouTube, Neural memory) |
+| **[Neural](https://github.com/Aj-Niplex/Neural)** | Memory sub-agent between tools and a durable GitHub-backed knowledge store |
+| **[neural-chat](https://github.com/Aj-Niplex/neural-chat)** | Discord + Telegram bot — capture thoughts or full tool access |
+| **[Niplex-obsidian-Research-AI](https://github.com/Aj-Niplex/Niplex-obsidian-Research-AI)** | Mobile-first Obsidian research agent (bounded vault context, community plugin) |
+| **[NiPlex-Harness](https://github.com/Aj-Niplex/NiPlex-Harness)** | Public personal AI agent harness (Discord/Telegram, sandbox, phone-friendly hosts) |
+| **[Rei-kun-Bot](https://github.com/Aj-Niplex/Rei-kun-Bot)** | AI Discord orchestrator — multi-model, persistent persona, student resource hub |
+| **[Aj-Niplex.github.io](https://aj-niplex.github.io/)** | Public NIPLEX site — vision, projects, roadmap |
+
+Detailed registry in this repo: [`profile/`](profile/) · [`projects/`](projects/) · [`repos/`](repos/)
+
+---
+
+### Stack
+
+```text
+Python 3.13  ·  MCP  ·  Discord.py  ·  REST (aiohttp)
+Obsidian plugins  ·  Linux VPS  ·  Mobile-first workflows
 ```
 
-**Neural-Chat** = Discord + Telegram capture/chat bot wired into the same pipeline.
+*(Full-stack / other languages later — when I build websites and apps. Right now: backend + social apps as UI.)*
 
 ---
 
-## Full Project & Repo Inventory
+### Architecture (simplified)
 
-### Active / Continuously Upgrading
-
-| Project | Repo | Description |
-|---------|------|-------------|
-| **Niplex-MCP** | [`niplex-mcp`](https://github.com/Aj-Niplex/niplex-mcp) | Custom MCP server — 47+ tools (GitHub, Google Workspace, HidenCloud/SFTP, sandboxes, YouTube, web search, Neural). Horizon auto-deploy. |
-| **Neural (Neural-MCP)** | [`Neural`](https://github.com/Aj-Niplex/Neural) | Memory sub-agent between Niplex-MCP and Adarshs-Stack. Tools: `ask_neural` / `log_to_neural`. |
-| **Neural-Chat** | [`neural-chat`](https://github.com/Aj-Niplex/neural-chat) | Discord + Telegram bot (capture mode + full tool access). Hosted on HidenCloud. |
-| **Niplex Research AI** | [`Niplex-obsidian-Research-AI`](https://github.com/Aj-Niplex/Niplex-obsidian-Research-AI) (public) / `Dev-obsidian-agentic-research` (private) | Mobile-first Obsidian community plugin — autonomous research agent with bounded vault context. Passed community review. |
-| **Niplex Skills Helper** | [`niplex-obsidian-helper`](https://github.com/Aj-Niplex/niplex-obsidian-helper) | Companion plugin — skill marketplace lookup/install. |
-| **Niplex Obsidian Skills** | [`Niplex-Obsidian-skills`](https://github.com/Aj-Niplex/Niplex-Obsidian-skills) | Public catalogue of research skills (RSH01–RSH09). |
-| **Sandbox** | [`Sandbox`](https://github.com/Aj-Niplex/Sandbox) | Minimal free code-runner MCP (subprocess), cheapest sandbox tier for Niplex-MCP. |
-| **Portfolio Site** | [`Aj-Niplex.github.io`](https://github.com/Aj-Niplex/Aj-Niplex.github.io) | Public NIPLEX showcase — vision, projects, roadmap. |
-
-### Mature / Lower Activity
-
-| Project | Repo | Description |
-|---------|------|-------------|
-| **Rei-kun-Bot** | [`Rei-kun-Bot`](https://github.com/Aj-Niplex/Rei-kun-Bot) | High-performance AI Discord orchestrator with persistent persona, multi-model intelligence, resource hub. |
-| **NiPlex-Harness** | [`NiPlex-Harness`](https://github.com/Aj-Niplex/NiPlex-Harness) | Public personal AI agent harness (Discord/Telegram, /setup, sandbox). Built for phone-first / free hosts. |
-| **dev-NiPlex-Harness** | [`dev-NiPlex-Harness`](https://github.com/Aj-Niplex/dev-NiPlex-Harness) | Dev/experiments branch of the harness. |
-
-### Planned / Private
-
-| Project | Status |
-|---------|--------|
-| **Niplex Agent** | Planned private agent — not yet scoped for public release. |
-| **Niplex-Computer-MCP / Computer-Use-MCP / Computer-Runtime** | Computer-use related MCP experiments. |
-
-### Infrastructure & Memory
-
-| Repo | Role |
-|------|------|
-| **Adarsh-Jaiswal** | Obsidian remote-sync vault (identity, goals, current-state, project notes). |
-| **Adarsh-Profile** (this repo) | Combined public-facing profile + full project registry. |
-| **Hermes-backup** | Disaster-recovery snapshot. |
-| **Niplex-bot** | Predecessor to Neural-Chat (superseded). |
-| **Temp** | Scratch / manager file dump. |
-| **Neural_OS** | Archived second-brain web app experiment ("Graphene Daily"). |
-| **Niplex-Research-Brain / Niplex-Writing-Insights** | Research & writing support repos. |
-| **Niplex-Obsidian-skills** | Skills catalogue (also listed under active). |
-
-### Other
-
-| Repo | Notes |
-|------|-------|
-| **Hermes-backup** | Single-commit recovery snapshot. |
-| **Sandbox** | Code-runner MCP. |
-| **Computer-*** family | Computer-use / runtime MCP experiments. |
+```text
+AI Client / Discord / Telegram
+            │
+            ▼
+       Niplex-MCP  ──► GitHub · Workspace · Sandboxes · Web · YouTube
+            │
+            ▼
+       Neural-MCP  ──► durable memory (wiki / vault)
+```
 
 ---
 
-## File Map in This Repo
+### Goals right now
 
-| File | Purpose |
-|------|--------|
-| `README.md` | This overview |
-| `profile/identity.md` | Stable identity & durable preferences |
-| `profile/current-state.md` | Living current situation |
-| `profile/goals.md` | Current goals & priority order |
-| `projects/registry.md` | Full project status table |
-| `projects/architecture.md` | How the NIPLEX stack fits together |
-| `repos/inventory.md` | Complete list of Aj-Niplex repositories |
+1. Class 12 CBSE — recover and aim ~80%
+2. Ship a substantial, useful GitHub project
+3. Clarify direction: AI/ML · CS · Software Engineering · Robotics
+4. Grow NIPLEX as real tools, not just portfolio pieces
 
 ---
 
-## Privacy & Update Rules
+<div align="center">
 
-- No passwords, API keys, tokens, or recovery codes live here.
-- Newest direct statement from Adarsh wins over older files.
-- Project status changes should update both the registry and the relevant project note.
-- This repo is the **combined public profile + project view**. Detailed daily notes and study state remain in the private `Adarsh-Jaiswal` vault.
+**Never Stop Imagining.**
 
----
+[Portfolio](https://aj-niplex.github.io/) · [niplex-mcp](https://github.com/Aj-Niplex/niplex-mcp)
 
-*Last updated September 2026 — Japan pathway removed from public profile; stack = Python backend + social UI.*
+</div>
