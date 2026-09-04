@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niplex | Adarsh Jaiswal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="petal-layer" id="petal-layer"></div>
+
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/company_logo.png" alt="Niplex Logo">
+                <span>NIPLEX</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">Vision</a>
+                <a href="projects.html">Projects</a>
+                <a href="roadmap.html">Roadmap</a>
+                <div class="theme-picker">
+                    <button id="theme-toggle" class="theme-toggle" title="Toggle Theme" aria-haspopup="true">🌙</button>
+                    <div class="theme-dropdown" id="theme-dropdown">
+                        <button class="theme-option" data-theme="dark" aria-pressed="true">🌙 Dark</button>
+                        <button class="theme-option" data-theme="light" aria-pressed="false">☀️ Light</button>
+                        <button class="theme-option" data-theme="sakura" aria-pressed="false">🌸 Sakura</button>
+                    </div>
+                </div>
+                <a href="https://www.linkedin.com/in/aj-niplex-foundation" target="_blank" class="nav-cta">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero animate-fade-in">
+        <div class="hero-content">
+            <div class="logo-group">
+                <img src="assets/user_logo.jpeg" alt="Adarsh Jaiswal" class="circle-logo">
+                <img src="assets/company_logo.png" alt="Niplex" class="circle-logo overlap">
+                <img src="assets/niplex_ai_logo.jpeg" alt="Niplex-AI" class="mascot-logo">
+            </div>
+            <h1 class="animate-slide-up stagger-1">NEVER STOP <span class="accent">IMAGINING</span></h1>
+            <p class="animate-slide-up stagger-2">Class 12 PCM student building AI agent systems, and working toward the MEXT Undergraduate Scholarship to study Robotics Engineering in Japan.</p>
+
+            <div class="stats-bar animate-slide-up stagger-3">
+                <div class="stat-item"><span>Python 3.13</span></div>
+                <div class="stat-item"><span>MCP Protocol</span></div>
+                <div class="stat-item"><span>MEXT 2028 Target</span></div>
+                <div class="stat-item"><span>Robotics Engineering</span></div>
+                <div class="stat-item"><span>👁 <span class="view-counter" id="hero-views">&mdash;</span> views</span></div>
+            </div>
+
+            <div class="hero-btns animate-slide-up stagger-3" style="margin-top: 2rem;">
+                <a href="projects.html" class="btn primary">See What I've Built</a>
+                <a href="roadmap.html" class="btn secondary">The Path to Japan</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="section bg-alt" id="stack">
+        <div class="container">
+            <h2 class="section-title animate-fade-in">The Stack</h2>
+            <p class="section-intro animate-fade-in">Python is my main language &mdash; and it powers the backend of this very site. TypeScript, JavaScript and Rust round out the toolkit.</p>
+            <div class="stack-grid">
+                <div class="stack-card main animate-slide-up stagger-1">
+                    <div class="stack-icon">🐍</div>
+                    <h3>Python <span class="stack-flag">Primary</span></h3>
+                    <p>My main language &mdash; everything important starts here. This site's backend, Rei-kun's AI stack, and my LLM fine-tuning (Unsloth, TRL, PEFT) all live in Python.</p>
+                    <div class="code-card">
+                        <div class="code-header"><span>backend.py</span><span>stdlib only</span></div>
+                        <pre>def increment_views():
+    views = read_views() + 1
+    save_views(views)
+    return {"views": views}</pre>
+                    </div>
+                </div>
+                <div class="stack-card animate-slide-up stagger-2">
+                    <div class="stack-icon">⚡</div>
+                    <h3>TypeScript</h3>
+                    <p>Typed, safe frontend tooling &mdash; used when I need structure and autocomplete to keep agent-facing tooling reliable.</p>
+                    <div class="code-card">
+                        <div class="code-header"><span>agent.ts</span><span>strict</span></div>
+                        <pre>const views: number =
+  await countViews();</pre>
+                    </div>
+                </div>
+                <div class="stack-card animate-slide-up stagger-2">
+                    <div class="stack-icon">🌐</div>
+                    <h3>JavaScript</h3>
+                    <p>Client-side interactions right here &mdash; the theme system, petal effects, and the live visitor counter you're looking at.</p>
+                    <div class="code-card">
+                        <div class="code-header"><span>counter.js</span><span>no build step</span></div>
+                        <pre>fetch("/api/visit", {
+  method: "POST"
+});</pre>
+                    </div>
+                </div>
+                <div class="stack-card animate-slide-up stagger-3">
+                    <div class="stack-icon">🦀</div>
+                    <h3>Rust</h3>
+                    <p>On the learning path &mdash; high-performance tooling for agent infrastructure and robotics-adjacent systems.</p>
+                    <div class="code-card">
+                        <div class="code-header"><span>main.rs</span><span>learning</span></div>
+                        <pre>fn main() {
+    println!(
+        "never stop imagining"
+    );
+}</pre>
+                    </div>
+                </div>
+            </div>
+            <div class="backend-note animate-fade-in">
+                ⚙️ This site runs a real <strong>Python backend</strong> &mdash; every page load hits <code>POST /api/visit</code>, persisted to <code>visits.json</code> (with a remote KV upgrade in production). Zero bot protection: crawlers are welcome to index everything.
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logos">
+                <img src="assets/user_logo.jpeg" alt="User">
+                <img src="assets/company_logo.png" alt="Company">
+                <img src="assets/niplex_ai_logo.jpeg" alt="AI">
+            </div>
+            <p>&copy; 2026 Adarsh Jaiswal &mdash; Niplex. <strong>NEVER STOP IMAGINING</strong></p>
+            <p class="footer-credit">Built independently, with AI tools used as part of the process.</p>
+            <div class="footer-counter" title="Total site views - crawlers and bots are welcome too">
+                <span class="counter-label">👁 Site Views</span>
+                <span class="view-counter counter-value">&mdash;</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            const body = document.body;
+            const toggleBtn = document.getElementById('theme-toggle');
+            const dropdown = document.getElementById('theme-dropdown');
+            const options = document.querySelectorAll('.theme-option');
+            const petalLayer = document.getElementById('petal-layer');
+            const ICONS = { dark: '🌙', light: '☀️', sakura: '🌸' };
+
+            function applyTheme(theme) {
+                body.classList.remove('light-theme', 'sakura-theme');
+                if (theme === 'light') body.classList.add('light-theme');
+                if (theme === 'sakura') body.classList.add('sakura-theme');
+                localStorage.setItem('theme', theme);
+                toggleBtn.textContent = ICONS[theme] || '🌙';
+                options.forEach(btn => {
+                    btn.setAttribute('aria-pressed', btn.dataset.theme === theme ? 'true' : 'false');
+                });
+                if (theme === 'sakura') {
+                    spawnPetals();
+                } else {
+                    clearPetals();
+                }
+            }
+
+            function spawnPetals() {
+                if (!petalLayer || petalLayer.dataset.spawned === 'true') return;
+                petalLayer.dataset.spawned = 'true';
+                const count = window.innerWidth < 600 ? 16 : 28;
+                for (let i = 0; i < count; i++) {
+                    const petal = document.createElement('div');
+                    petal.className = 'petal';
+                    const left = Math.random() * 100;
+                    const fallDuration = 7 + Math.random() * 8;
+                    const swayDuration = 3 + Math.random() * 3;
+                    const delay = Math.random() * 10;
+                    const size = 8 + Math.random() * 10;
+                    const opacity = 0.5 + Math.random() * 0.4;
+                    petal.style.left = left + 'vw';
+                    petal.style.width = size + 'px';
+                    petal.style.height = size + 'px';
+                    petal.style.opacity = opacity;
+                    petal.style.animationDuration = fallDuration + 's, ' + swayDuration + 's';
+                    petal.style.animationDelay = '-' + delay + 's, -' + (Math.random() * swayDuration) + 's';
+                    petalLayer.appendChild(petal);
+                }
+            }
+
+            function clearPetals() {
+                if (!petalLayer) return;
+                petalLayer.innerHTML = '';
+                petalLayer.dataset.spawned = 'false';
+            }
+
+            const saved = localStorage.getItem('theme') || 'dark';
+            applyTheme(saved);
+
+            toggleBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                dropdown.classList.toggle('open');
+            });
+
+            options.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    applyTheme(btn.dataset.theme);
+                    dropdown.classList.remove('open');
+                });
+            });
+
+            document.addEventListener('click', (e) => {
+                if (!dropdown.contains(e.target) && e.target !== toggleBtn) {
+                    dropdown.classList.remove('open');
+                }
+            });
+        })();
+    </script>
+    <script type="module" src="/script.js"></script>
+</body>
+</html>
+<!-- Updated: Mon Jul 13 10:43:46 UTC 2026 -->
