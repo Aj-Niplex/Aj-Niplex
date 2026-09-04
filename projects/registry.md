@@ -44,7 +44,7 @@ Status values: `active` · `planned` · `development` · `paused` · `inactive` 
 | Repo | Role |
 |------|------|
 | `Adarsh-Jaiswal` | Obsidian vault (identity, goals, study, project notes) |
-| `Adarsh-Profile` | This combined public profile + registry |
+| `Aj-Niplex` | This repo — GitHub profile README + combined profile/project registry |
 | `Hermes-backup` | Disaster-recovery snapshot |
 | `Temp` | Scratch dump |
 | `Niplex-Research-Brain` / `Niplex-Writing-Insights` | Research & writing support |
