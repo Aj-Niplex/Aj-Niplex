@@ -1,13 +1,13 @@
 # Complete Aj-Niplex Repository Inventory
 
-Live list snapshot of every repository under the [Aj-Niplex](https://github.com/Aj-Niplex) account (as of assembly of this profile repo).
+Live list snapshot of every repository under the [Aj-Niplex](https://github.com/Aj-Niplex) account.
 
 ## All repos
 
 | Repo | Notes |
 |------|-------|
 | `Adarsh-Jaiswal` | Obsidian memory vault (identity, goals, study, projects) |
-| `Adarsh-Profile` | **This repo** — combined public profile + project registry |
+| `Aj-Niplex` | **This repo** — GitHub profile README + combined profile/project registry |
 | `Aj-Niplex.github.io` | Public NIPLEX portfolio / showcase site |
 | `Computer-Runtime` | Computer-use runtime experiments |
 | `Computer-Use-MCP` | Computer-use MCP |
@@ -30,7 +30,7 @@ Live list snapshot of every repository under the [Aj-Niplex](https://github.com/
 | `Sandbox` | Minimal free code-runner MCP |
 | `Temp` | Scratch / temporary dump |
 
-> Note: Some names may appear with slight casing or hyphenation differences in the live GitHub list. Always prefer the live `git_list_repos` output when writing automation.
+> Note: Prefer live `git_list_repos` when writing automation.
 
 ## How to refresh
 
