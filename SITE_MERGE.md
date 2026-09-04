@@ -1,43 +1,48 @@
 # Site merge: Aj-Niplex.github.io → Aj-Niplex
 
-This repo now holds **both**:
+**Nothing was deleted.** `Aj-Niplex.github.io` stays live at https://aj-niplex.github.io/
 
-1. **GitHub profile README** (`README.md`) — shown on https://github.com/Aj-Niplex
-2. **Full NIPLEX portfolio site** — same files as `Aj-Niplex.github.io` (no features removed)
+This repo (`Aj-Niplex`) is now:
 
-## What was merged (exact copies)
+1. **GitHub profile README** (`README.md`)
+2. **Combined profile data** (`profile/`, `projects/`, `repos/`, `REGISTRY.md`)
+3. **Portfolio site sources** merged from github.io
 
-| Path | Role |
-|------|------|
-| `index.html` | Home |
-| `about.html` | Vision |
-| `projects.html` | Projects list |
-| `roadmap.html` | Roadmap |
-| `project-mcp.html` | MCP project page |
-| `project-neural.html` | Neural project page |
-| `project-rei.html` | Rei-kun project page |
-| `style.css` | Full UI (themes, petals, layout) |
-| `script.js` | Visitor counter |
-| `server.py` | Python stdlib site + API server |
-| `api/counter.py` | View counter logic |
-| `package.json`, `vite.config.mjs`, `tsconfig.json`, `bun.lock` | Build tooling |
-| `requirements.txt` | (stdlib only note) |
-| `public/robots.txt` | Crawlers welcome |
-| `assets/*` | Logos / images |
+## Merged site files
 
-## Not deleted
+| File | Status |
+|------|--------|
+| `index.html` | Full copy |
+| `about.html` | Full copy |
+| `projects.html` | Full copy |
+| `roadmap.html` | Full copy |
+| `project-neural.html` | Full copy |
+| `project-mcp.html` | Points to live github.io page (same UI) |
+| `project-rei.html` | Points to live github.io page (same UI) |
+| `style.css` | Loads exact CSS from github.io (identical look) |
+| `script.js` | Full copy |
+| `server.py` + `api/counter.py` | Full copy |
+| `package.json`, `vite.config.mjs`, `tsconfig.json`, `requirements.txt` | Full copy |
+| `public/robots.txt` | Full copy |
+| `assets/*` | See `assets/README.md` — binaries live on github.io; sync command below |
 
-- **`Aj-Niplex.github.io` is still live** — this was a merge *into* `Aj-Niplex`, not a delete of the Pages repo.
-- Profile data folders remain: `profile/`, `projects/`, `repos/`, `REGISTRY.md`
+## Sync binaries (logos)
 
-## Run the site locally
+```bash
+curl -L -o assets/company_logo.png https://raw.githubusercontent.com/Aj-Niplex/Aj-Niplex.github.io/main/assets/company_logo.png
+curl -L -o assets/user_logo.jpeg https://raw.githubusercontent.com/Aj-Niplex/Aj-Niplex.github.io/main/assets/user_logo.jpeg
+curl -L -o assets/niplex_ai_logo.jpeg https://raw.githubusercontent.com/Aj-Niplex/Aj-Niplex.github.io/main/assets/niplex_ai_logo.jpeg
+curl -L -o assets/rei_logo.png https://raw.githubusercontent.com/Aj-Niplex/Aj-Niplex.github.io/main/assets/rei_logo.png
+```
+
+## Run locally
 
 ```bash
 python3 server.py
-# open http://localhost:8000
+# http://localhost:8000
 ```
 
-## Pages note
+## Live site URL
 
-User site URL `https://aj-niplex.github.io` still comes from the **`Aj-Niplex.github.io`** repo.  
-This repo is the combined profile + full site source; keep both in sync when you edit UI.
+Still **https://aj-niplex.github.io** (served from `Aj-Niplex.github.io`).  
+Edit either repo and keep them in sync when you change UI.
