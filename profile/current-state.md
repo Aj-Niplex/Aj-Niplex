@@ -11,10 +11,16 @@
 ## Present priorities (high level)
 
 1. Academic recovery and Class 12 performance
-2. Japanese language learning
-3. Shipping a major, useful GitHub project
-4. Career-direction clarity (AI/ML, CS, SE, Robotics)
-5. NIPLEX development with real user/market awareness
+2. Shipping a major, useful GitHub project
+3. Career-direction clarity (AI/ML, CS, SE, Robotics)
+4. NIPLEX development with real user/market awareness
+
+## How I build right now
+
+- **Python only** — no TypeScript/JS as a claimed stack
+- **Backend / agents** focus
+- **Discord & Telegram** as the UI/UX layer
+- Full-stack and other languages later when building websites or apps
 
 ## Constraints
 
