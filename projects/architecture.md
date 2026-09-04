@@ -5,12 +5,12 @@
 ```
 ┌─────────────────────┐
 │  AI Client          │  (Claude, other MCP-capable clients)
-│  Discord / Telegram │  (Neural-Chat)
+│  Discord / Telegram │  (Neural-Chat)  ← social apps as UI
 └──────────┬──────────┘
            │
            ▼
 ┌─────────────────────┐
-│     Niplex-MCP      │  47+ tools in one MCP server
+│     Niplex-MCP      │  47+ tools in one MCP server (Python)
 │  GitHub · Google    │
 │  Workspace · SFTP   │
 │  Sandboxes · Web    │
@@ -19,7 +19,7 @@
            │ ask_neural / log_to_neural
            ▼
 ┌─────────────────────┐
-│     Neural-MCP      │  Memory / context sub-agent
+│     Neural-MCP      │  Memory / context sub-agent (Python)
 └──────────┬──────────┘
            │
            ▼
@@ -28,6 +28,13 @@
 │  Adarsh-Jaiswal     │  Obsidian vault (remote sync)
 └─────────────────────┘
 ```
+
+## Build style (current)
+
+- **Language:** Python only
+- **Focus:** Backend and agents
+- **UI:** Discord / Telegram (social apps as the interface)
+- Full-stack and other languages later when websites/apps are in scope
 
 ## Key components
 
@@ -57,7 +64,7 @@ Hosted on HidenCloud (phone-first friendly).
 - **Adarsh-Jaiswal** vault — identity, goals, study state, project notes
 
 ### Portfolio
-**Aj-Niplex.github.io** — public face (Vision, Projects, Roadmap) with a real Python backend and Vite frontend.
+**Aj-Niplex.github.io** — public face (Vision, Projects, Roadmap).
 
 ## Design principles
 
