@@ -6,9 +6,9 @@
 
 <br/>
 
-```ansi
-[1;36m░▒█▀▄ █▀█ █░█ █   █ ██▀ █▀▀ █▀█ █▀▄ █▀▀ █▀█  ▁ ▂ ▄ ▅ ▆ ▇ █ [0m
-[1;35m░▒█▄▀ █▄█ ▀▄▀ █▄▄ █ ▄█  ██▄ █▄█ █▄▀ ██▄ █▀▄  █ ▇ ▆ ▅ ▄ ▂ ▁ [0m
+```text
+░▒█▀▄ █▀█ █░█ █   █ ██▀ █▀▀ █▀█ █▀▄ █▀▀ █▀█  ▁ ▂ ▄ ▅ ▆ ▇ █
+░▒█▄▀ █▄█ ▀▄▀ █▄▄ █ ▄█  ██▄ █▄█ █▄▀ ██▄ █▀▄  █ ▇ ▆ ▅ ▄ ▂ ▁
 ```
 
 ```bash
@@ -35,13 +35,14 @@
 
 ### Building
 
-* **[NiPlex-MCP](https://github.com/Aj-Niplex/NiPlex-MCP)** — Production Model Context Protocol server. Secure bridge for AI agents → GitHub, sandboxes (Daytona/E2B), web, YouTube, research tools. No raw credential exposure.
-* **[Niplex-obsidian-Research-AI](https://github.com/Aj-Niplex/Niplex-obsidian-Research-AI)** — Mobile-first Obsidian research agent. Bounded vault context, transparent prompts, explicit write approvals. Community plugin.
+* **[Niplex-obsidian-Research-AI](https://github.com/Aj-Niplex/Niplex-obsidian-Research-AI)** — Autonomous, mobile-first Obsidian research AI with bounded vault context, transparent prompts, and approved edits. Community plugin.
 * **[NiPlex-Harness](https://github.com/Aj-Niplex/NiPlex-Harness)** — Personal AI agent harness controlled from Discord or Telegram. Built-in Python sandbox + approval buttons. Phone-friendly, free-host ready.
-* **[Rei-kun-Bot](https://github.com/Aj-Niplex/Rei-kun-Bot)** — Live Discord AI orchestrator. Multi-model fallback (DeepSeek / LLaMA / GPT / Gemini), persistent persona, student resource hub. 24 commands, self-hosted on Linux VPS.
-* **[niplex-obsidian-helper](https://github.com/Aj-Niplex/niplex-obsidian-helper)** + **[Niplex-Obsidian-skills](https://github.com/Aj-Niplex/Niplex-Obsidian-skills)** — Safe skill marketplace + instruction-only research skills for the Niplex Obsidian ecosystem.
-* **[Neural](https://github.com/Aj-Niplex/Neural)** / **neural-chat** — Memory sub-agent + Discord/Telegram interface that sits between tools and durable knowledge storage.
-* **[Aj-Niplex.github.io](https://aj-niplex.github.io/)** — Public NIPLEX site (projects + stack).
+* **[Rei-kun-Bot](https://github.com/Aj-Niplex/Rei-kun-Bot)** — High-performance Discord AI orchestrator with persistent persona, multi-model intelligence, and a comprehensive resource hub for students and devs.
+* **[niplex-obsidian-helper](https://github.com/Aj-Niplex/niplex-obsidian-helper)** — Safe helper plugin for Niplex Obsidian skill marketplace lookup and installation.
+* **[Niplex-Obsidian-skills](https://github.com/Aj-Niplex/Niplex-Obsidian-skills)** — Safe instruction-only skills catalogue for Niplex Obsidian plugins.
+* **[Aj-Niplex.github.io](https://aj-niplex.github.io/)** — Public NIPLEX portfolio site (projects + stack).
+* **NiPlex-MCP** (private) — Production MCP server with 47+ tools (GitHub, sandboxes, HidenCloud, web, YouTube, Neural memory, Google Workspace). Secure bridge for AI agents.
+* **Neural / neural-chat** (private) — Memory sub-agent + Discord/Telegram interface backed by durable knowledge store.
 
 ---
 
@@ -63,29 +64,30 @@ $ stack --list
 
 ---
 
-### 🛡️ Flagship · Live Now
+### 🛡️ Flagship · Live Now (Public)
 
-| Project | What it is |
-|---------|------------|
-| **[NiPlex-MCP](https://github.com/Aj-Niplex/NiPlex-MCP)** | Production MCP server — tools, sandboxes, secure GitHub & research integrations |
-| **[Niplex Research AI](https://github.com/Aj-Niplex/Niplex-obsidian-Research-AI)** | Autonomous Obsidian research agent with bounded context + approved edits |
-| **[NiPlex-Harness](https://github.com/Aj-Niplex/NiPlex-Harness)** | Discord/Telegram personal agent harness with sandbox & approval system |
-| **[Rei-kun-Bot](https://github.com/Aj-Niplex/Rei-kun-Bot)** | Multi-model Discord orchestrator — live, persistent persona, resource hub |
+| Project | Language | Stars | What it is |
+|---------|----------|-------|------------|
+| **[Niplex-obsidian-Research-AI](https://github.com/Aj-Niplex/Niplex-obsidian-Research-AI)** | TypeScript | 2 | Autonomous Obsidian research agent — bounded context + approved edits |
+| **[NiPlex-Harness](https://github.com/Aj-Niplex/NiPlex-Harness)** | Python | – | Discord/Telegram personal agent harness with sandbox & approval system |
+| **[Rei-kun-Bot](https://github.com/Aj-Niplex/Rei-kun-Bot)** | Python | 1 | Multi-model Discord orchestrator — live, persistent persona, resource hub |
+| **[niplex-obsidian-helper](https://github.com/Aj-Niplex/niplex-obsidian-helper)** | TypeScript | 1 | Safe skill marketplace helper for Obsidian |
+| **[Niplex-Obsidian-skills](https://github.com/Aj-Niplex/Niplex-Obsidian-skills)** | – | 1 | Instruction-only research skills catalogue |
 
 <p align="center">
-  <a href="https://github.com/Aj-Niplex/NiPlex-MCP">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Aj-Niplex&repo=NiPlex-MCP&theme=tokyonight&hide_border=true" />
-  </a>
   <a href="https://github.com/Aj-Niplex/Niplex-obsidian-Research-AI">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Aj-Niplex&repo=Niplex-obsidian-Research-AI&theme=tokyonight&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Aj-Niplex&repo=Niplex-obsidian-Research-AI&theme=tokyonight&hide_border=true" alt="Niplex-obsidian-Research-AI" />
+  </a>
+  <a href="https://github.com/Aj-Niplex/NiPlex-Harness">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Aj-Niplex&repo=NiPlex-Harness&theme=tokyonight&hide_border=true" alt="NiPlex-Harness" />
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/Aj-Niplex/NiPlex-Harness">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Aj-Niplex&repo=NiPlex-Harness&theme=tokyonight&hide_border=true" />
-  </a>
   <a href="https://github.com/Aj-Niplex/Rei-kun-Bot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Aj-Niplex&repo=Rei-kun-Bot&theme=tokyonight&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Aj-Niplex&repo=Rei-kun-Bot&theme=tokyonight&hide_border=true" alt="Rei-kun-Bot" />
+  </a>
+  <a href="https://github.com/Aj-Niplex/niplex-obsidian-helper">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Aj-Niplex&repo=niplex-obsidian-helper&theme=tokyonight&hide_border=true" alt="niplex-obsidian-helper" />
   </a>
 </p>
 
@@ -95,7 +97,7 @@ $ stack --list
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Aj-Niplex&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="165" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=Aj-Niplex&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="GitHub Stats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aj-Niplex&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" alt="Top Languages" />
 
 <br/>
@@ -147,6 +149,6 @@ Mobile-first UX      Sandbox isolation    Agent memory layers
 
 **Never Stop Imagining.**
 
-[Portfolio](https://aj-niplex.github.io/) · [NiPlex-MCP](https://github.com/Aj-Niplex/NiPlex-MCP) · [GitHub](https://github.com/Aj-Niplex)
+[Portfolio](https://aj-niplex.github.io/) · [Niplex Research AI](https://github.com/Aj-Niplex/Niplex-obsidian-Research-AI) · [GitHub](https://github.com/Aj-Niplex)
 
 </div>
