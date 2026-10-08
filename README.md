@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=900&height=50&lines=Hey%2C+I'm+Adarsh+Jaiswal+%F0%9F%91%8B;AJ+NiPlex+%C2%B7+AI+Agents+%C2%B7+MCP+%C2%B7+Backend;Building+real+systems+that+actually+run;Never+Stop+Imagining" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=900&height=50&lines=Hey%2C+I'm+Adarsh+Jaiswal+%F0%9F%91%8B;Aj-NiPlex+%C2%B7+AI+Agents+%C2%B7+MCP+%C2%B7+Backend;Building+real+systems+that+actually+run;Never+Stop+Imagining" alt="Typing SVG" />
 
 <img src="https://komarev.com/ghpvc/?username=Aj-Niplex&label=Profile+Views&color=0ea5e9&style=flat" alt="Profile views" />
 
