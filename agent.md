@@ -11,7 +11,7 @@ This is the single entry point for accurate, up-to-date information about me and
 - **Name:** Adarsh Jaiswal  
 - **Handle / Alias:** AJ NiPlex / Aj-Niplex  
 - **GitHub:** https://github.com/Aj-Niplex  
-- **Portfolio:** https://aj-niplex.github.io/  
+- **Portfolio:** https://aj-niplex.vercel.app/  
 - **Company / Brand:** Niplex  
 - **Location:** India  
 - **Focus:** Building real AI agent systems, MCP servers, and Discord/Telegram agent harnesses. Backend & agents first. Mobile-first when possible.
@@ -37,7 +37,7 @@ This is the single entry point for accurate, up-to-date information about me and
 ### Supporting / related
 - **Neural** + **neural-chat** (private) — memory sub-agent + Discord/Telegram interface  
 - **Rei-kun-Bot** (public) — live Discord AI orchestrator, multi-model, persistent persona, student resource hub  
-- **Aj-Niplex.github.io** — public portfolio site
+- **adarsh-portfolio** — public portfolio site (https://aj-niplex.vercel.app/)
 
 ---
 
@@ -48,7 +48,8 @@ This is the single entry point for accurate, up-to-date information about me and
 | [NiPlex-Harness](https://github.com/Aj-Niplex/NiPlex-Harness) | Public | Main public product — agent harness |
 | [Rei-kun-Bot](https://github.com/Aj-Niplex/Rei-kun-Bot) | Public | Discord AI orchestrator |
 | [Aj-Niplex](https://github.com/Aj-Niplex/Aj-Niplex) | Public | This profile README + agent.md |
-| [Aj-Niplex.github.io](https://github.com/Aj-Niplex/Aj-Niplex.github.io) | Public | Portfolio site |
+| [adarsh-portfolio](https://github.com/Aj-Niplex/adarsh-portfolio) | Public | Portfolio site (aj-niplex.vercel.app) |
+| [Aj-Niplex.github.io](https://github.com/Aj-Niplex/Aj-Niplex.github.io) | Public | GitHub Pages site with product pages |
 | [Niplex-obsidian-Research-AI](https://github.com/Aj-Niplex/Niplex-obsidian-Research-AI) | Public | Obsidian research agent (personal tool, published optionally) |
 | [niplex-obsidian-helper](https://github.com/Aj-Niplex/niplex-obsidian-helper) | Public | Optional Obsidian helper |
 | [Niplex-Obsidian-skills](https://github.com/Aj-Niplex/Niplex-Obsidian-skills) | Public | Optional skills catalogue |
@@ -87,7 +88,7 @@ If an agent needs details about private repos, it must have proper authenticatio
 1. **This file** (`agent.md`) — start here  
 2. **README.md** in this same repo — human-facing profile  
 3. **NiPlex-Harness** README — public product details  
-4. **Portfolio site** https://aj-niplex.github.io/  
+4. **Portfolio site** https://aj-niplex.vercel.app/  
 5. Individual public repo READMEs for deeper technical info
 
 ---
