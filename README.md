@@ -45,7 +45,7 @@ Built for people on free hosts (HidenCloud etc.) without a PC — **phone is the
 #### 2. NiPlex-MCP (Private · Core)
 **Production Model Context Protocol server** — one AI agent’s full toolkit behind a single MCP connection.
 
-- 47+ tools  
+- 73 tools  
 - GitHub (full repo / file / branch / issue / PR access)  
 - Sandboxes (Daytona / E2B / Horizon)  
 - HidenCloud (live production server)  
@@ -63,7 +63,7 @@ Security-reviewed · allow-list dispatch · no email-send · no auto-merge.
 Discord / Telegram  ──►  NiPlex-Harness  ──►  Sandbox + Approvals
                               │
                               ▼
-                         NiPlex-MCP (47+ tools)
+                         NiPlex-MCP (73 tools)
                               │
           ┌───────────────────┼───────────────────┐
           ▼                   ▼                   ▼
@@ -92,24 +92,6 @@ Discord / Telegram  ──►  NiPlex-Harness  ──►  Sandbox + Approvals
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Aj-Niplex&repo=Rei-kun-Bot&theme=tokyonight&hide_border=true" alt="Rei-kun-Bot" />
   </a>
 </p>
-
----
-
-### Tools & AI Agents I use
-
-| Role | Tool |
-|------|------|
-| **Main developer** | Claude |
-| **Bug hunter & secondary dev** | Grok |
-| **3rd / random tasks** | Mistral Vibe |
-| **Research (sometimes)** | ChatGPT |
-| **Custom agent (sometimes)** | My own customized Hermes |
-| **Google-connected work** | Gemini |
-
-### AI Providers I love & use
-
-- **Gemini** (Google APIs)
-- **Agnes AI** by Sepians
 
 ---
 
