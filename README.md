@@ -82,7 +82,7 @@ Discord / Telegram  ──►  NiPlex-Harness  ──►  Sandbox + Approvals
 | Project | What it is |
 |---------|------------|
 | **[Rei-kun-Bot](https://github.com/Aj-Niplex/Rei-kun-Bot)** | Live Discord AI orchestrator — multi-model, persistent persona, resource hub |
-| **[Aj-Niplex.github.io](https://aj-niplex.github.io/)** | Public portfolio site |
+| **[Portfolio](https://aj-niplex.vercel.app/)** | Public portfolio site with every project and its details |
 
 <p align="center">
   <a href="https://github.com/Aj-Niplex/NiPlex-Harness">
@@ -148,6 +148,6 @@ Mobile-first · Backend & agents first
 
 **Never Stop Imagining.**
 
-[Portfolio](https://aj-niplex.github.io/) · [NiPlex-Harness](https://github.com/Aj-Niplex/NiPlex-Harness) · [GitHub](https://github.com/Aj-Niplex)
+[Portfolio](https://aj-niplex.vercel.app/) · [NiPlex-Harness](https://github.com/Aj-Niplex/NiPlex-Harness) · [GitHub](https://github.com/Aj-Niplex)
 
 </div>
