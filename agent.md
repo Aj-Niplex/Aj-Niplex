@@ -29,7 +29,7 @@ This is the single entry point for accurate, up-to-date information about me and
 
 ### 2. NiPlex-MCP (Private · Core)
 - **Repo:** https://github.com/Aj-Niplex/NiPlex-MCP (private)  
-- **What:** Production Model Context Protocol server with 47+ tools.  
+- **What:** Production Model Context Protocol server with 73 tools.  
 - Tools include: full GitHub access, sandboxes (Daytona/E2B/Horizon), HidenCloud, web/YouTube, Neural memory sub-agent, Google Workspace (Gmail draft, Calendar, Drive, Docs).  
 - Security-reviewed, allow-list dispatch, no email-send, no auto-merge.  
 - Private dev twin: `dev-NiPlex-MCP`
@@ -79,21 +79,6 @@ If an agent needs details about private repos, it must have proper authenticatio
 - Transparent prompts, bounded context, explicit approvals
 - Mobile-first whenever possible
 - Stack: Python · MCP Protocol · Discord.py · aiohttp · Linux VPS · Sandbox isolation · Agent memory layers
-
----
-
-## AI Tools I use (for context)
-
-| Role | Tool |
-|------|------|
-| Main developer | Claude |
-| Bug hunter & secondary dev | Grok |
-| 3rd / random tasks | Mistral Vibe |
-| Research (sometimes) | ChatGPT |
-| Custom agent (sometimes) | Customized Hermes |
-| Google-connected work | Gemini |
-
-**Providers I like:** Gemini (Google APIs), Agnes AI by Sepians.
 
 ---
 
